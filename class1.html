@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     class kucing {
+    //         constructor(){
+    //         this.nama = "asep dan udin"
+    //     }
+    //     nyapa(){
+    //         return "hallo we are name is " + this.nama;
+    //     }
+    // }
+    // var kucing1 = new kucing();
+
+    // document.write(kucing1.nyapa());
+        var list_human =[
+    {
+        nama : "samsudin",
+        jumlah_kaki : 3,
+        data_diri : function () {
+            return`
+            data diri human, <br />
+            nama : ${this.nama} <br />
+            jumlah kaki : ${this.jumlah_kaki}
+            `
+        }
+    }
+]
+document.write(list_human[0].data_diri())
+    </script>
+</body>
+</html>
